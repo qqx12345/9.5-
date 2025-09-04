@@ -4,7 +4,6 @@ services:
     restart: unless-stopped
     depends_on:
       - db
-      - nginx
 
   db:
     image: mysql:8
